@@ -91,14 +91,13 @@ void loop() {
  
    
     
-    Serial.print("PRbpm : "); 
+    Serial.print("PRbpm :"); 
     Serial.print(avgBPM);
 
-    Serial.print("    %SPo2 : ");
+    Serial.print("    %SPo2 :");
     Serial.print(avgOX);
 
     Serial.print("\n");  
-    Serial.println("================="); 
    break;
     
     //Serial.println(message);
